@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+</head>
+<body bgcolor="#CECECE">
+
+<br>
+<header><center></center>
+    <p>
+        <center> <h1> <font color ="green"><strong>PLAYO</strong></font></h1></center>
+        <a href="index.html">Home page</a>&nbsp;|
+        <a href="About.html">Aboutus</a>&nbsp;|
+        <a href="Contact Us.html">Contactus</a>&nbsp;|
+        <a href="Sports.html">Sports</a>&nbsp;|
+        <a href="Venue details.html">Venues</a>&nbsp;|
+        <a href="#">BookVenue</a>&nbsp;
+
+
+    </p>  
+</header>
+<hr><br><br><br>
+<form name="book" method="GET">
+    <table bgcolor="e0eeeb" align="center" cellspacing="30px">
+        <tr>
+            <td>
+                <label>Sports</label>
+            </td>
+            <td>
+                <select name="sport" id="sport">
+                    <option hidden>-- Select Sport --</option>
+                    <option value="Badminton">Badminton</option>
+                    <option value="Boxcricket">Box Cricket</option>
+                    <option value="football">Football</option>
+                    <option value="carrom">Carrom</option>
+                    <option value="basketball">Basketball</option>
+                    <option value="tabletennis">Table Tennis</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Date</label>
+            </td>
+            <td>
+                <input type="date" name="date" id="date">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Start Time</label>
+            </td>
+            <td>
+                <input type="time" name="time" id="time">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Duration</label>
+            </td>
+            <td>
+                <select name="duration" id="duration">
+                    <option hidden>-- Select Duration --</option>
+                    <option value="30">30</option>
+                    <option value="1:00">1:00</option>
+                    <option value="1:30">1:30</option>
+                    <option value="2:00">2:00</option>
+                    <option value="2:30">2:30</option>
+                    <option value="3:00">3:00</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Court</label>
+            </td>
+            <td>
+                <select name="court" id="court">
+                    <option hidden>-- Select Court --</option>
+                    <option value="court1">Court 1</option>
+                    <option value="court2">Court 2</option>
+                    <option value="court3">Court 3</option>
+                    <option value="court4">Court 4</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input style="background-color: green;color: white;" type="submit" value="Add to Cart">
+            </td>
+        </tr>
+    </table>
+</form>
+<br><br><br><br><br><br><br><br>
+<hr>
+<footer><center>
+    <font color="blue">Copyright@360Digrii</font></center>
+</footer>
+</body>
+</html>
